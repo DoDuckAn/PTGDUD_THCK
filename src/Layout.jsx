@@ -1,4 +1,5 @@
 import BannerSlide from "./components/BannerSlide"
+import BranchGallery from "./components/BranchGallery"
 import Header from "./components/Header"
 import MenuHeader from "./components/MenuHeader"
 import NewsSection from "./components/NewSection"
@@ -16,6 +17,7 @@ const Layout = () => {
                     <SidebarMenu className="w-[20%]" />
                     <NewsSection className="w-[80%]" />
                 </div>
+                <BranchGallery/>
             </div>
         </div>
     );
