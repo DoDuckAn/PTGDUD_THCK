@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="bg-[#23215d] text-white text-sm">
+    <header className="bg-[#23215d] text-white text-sm w-full">
       <div className="container mx-auto flex justify-between items-center py-2 px-4">
         {/* Left Side */}
         <div className="flex items-center gap-4">
