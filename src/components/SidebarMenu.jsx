@@ -12,7 +12,7 @@ const sidebarItems = [
 
 const SidebarMenu = () => {
   return (
-    <div className="bg-[#003366] text-white text-sm w-60">
+    <div className="bg-[#003366] text-white text-sm w-60 border-blue border-1">
       <div className="p-4 font-bold border-b border-gray-400">CƠ CẤU TỔ CHỨC</div>
       {sidebarItems.map((item, index) => (
         <div key={index} className="group relative">

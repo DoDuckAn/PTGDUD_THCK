@@ -20,10 +20,10 @@ const BannerSlide = () => {
   return (
     <div className="relative w-full h-[300px] overflow-hidden">
       <img src={banners[current]} alt="Banner" className="w-full h-full object-cover" />
-      <button onClick={prevBanner} className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md">
+      <button onClick={prevBanner} className="absolute px-4 left-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full  text-black shadow-md">
         {"<"}
       </button>
-      <button onClick={nextBanner} className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md">
+      <button onClick={nextBanner} className="absolute px-4 right-4 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full text-black  shadow-md">
         {">"}
       </button>
     </div>
